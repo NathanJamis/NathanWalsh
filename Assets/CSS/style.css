@@ -1,7 +1,5 @@
 body {
-    height: 100%;
-    background: linear-gradient(135deg, #f98383, #ed7c8b, #de7692, #ce7297, #bc6f9a, #a76c9b, #916899, #7c6594, #616089, #4a597b, #39516a, #2f4858);
-    background-size: cover;
+    background-repeat: repeat;
 }
 img {
     height: 300px;
@@ -12,32 +10,43 @@ hr.solid {
     border-top: 1px solid white;
 }
 nav {
-    background-color: #F98383;
+    background-color: #113B39;
 }
 .dropdown-menu {
-    background-color: #F98383;
+    background-color: #113B39;
     border: none;
 }
 .dropdown-item:hover {
-    background-color: #F98383;
+    background-color: #113B39;
 }
 a {
-    color: #F3EADA !important;
+    color: #BFA5A5 !important;
 }
 .card {
-    background-color: #A36B9B;
-    color: #F3EADA;
+    background-color: #574142;
+    color: #BFA5A5;
 }
 footer {
-    background-color: #2F4858;
+    background-color: #113B39;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 50px;
     line-height: 50px;
     text-align: center;
-    color: #F3EADA
+    color: #BFA5A5
 }
 .forSpacing {
     padding-bottom: 100px;
+}
+#repos {
+    background-color: #221F1F;
+}
+.btn {
+    color: #ffffff !important;
+    background-color: #426A68 !important;
+    border-color: #426A68 !important;
+}
+.btn:hover {
+    background-color: #113B39 !important;
 }
